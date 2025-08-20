@@ -1,12 +1,64 @@
-# React + Vite
+# ProjectMaster
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+ProjectMaster is a task and project management web application designed for project managers and teams.  
+It allows users to **create projects, assign tasks, update progress, delete tasks, and manage projects effectively**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔑 **User Authentication** (Sign Up, Login, Forgot Password)
+- 📂 **Project Management** – create, view, update, and delete projects
+- ✅ **Task Assignment** – assign tasks to team members
+- 🔄 **Real-Time Updates** with REST API
+- 📱 **Responsive Design** with Tailwind CSS
+- 📧 **Contact Form** for support/queries
+- 🌐 **Social Media Integration** in the footer
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+**Frontend:**
+
+- React (with React Router)
+- Tailwind CSS
+- Axios
+
+---
+
+### Pages & Routes
+
+/ → Home Page
+
+/signup → User Registration
+
+/login → User Login
+
+/forgot-password → Password Reset
+
+/projectform → Add New Project
+
+/contact → Contact Us
+/Update-user → Update User
+
+---
+
+### UI Highlights
+
+Navbar & Footer with navigation and social links
+
+Responsive Layout optimized for desktop and mobile
+
+Clean & Modern Design powered by Tailwind CSS
+
+---
+
+### Contributing
+
+Contributions are welcome!
+If you'd like to improve ProjectMaster, fork the repo and submit a pull request.
+
+---
+
+### © 2025 ProjectMaster. All rights reserved.
