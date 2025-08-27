@@ -1,6 +1,7 @@
 import {Hamburger, Menu, X} from "lucide-react";
 import React from "react";
 import {useState} from "react";
+import {Link} from "react-router-dom"
 
 const Sidebar = () => {
   const [Sidebar, setSidebar] = useState(false);
@@ -22,12 +23,22 @@ const Sidebar = () => {
                 <input type="text" placeholder="search..." 
                 className="w-full"/>
             </div>
-            <ul>
-                <li>Home</li>
-                <li>Add Project</li>
-                <li>Sign Up</li>
-                <li>Login</li>
-                <li>Contact</li>
+            <ul className="space-y-2 my-4">
+                <li><Link to="/" className="hover:text-yellow-300">
+              Home
+            </Link></li>
+                <li><Link to="/ProjectForm" className="hover:text-yellow-300">
+              Add Project
+            </Link></li>
+                <li><Link to="/signup" className="hover:text-yellow-300">
+              SignUp
+            </Link></li>
+                <li><Link to="/login" className="hover:text-yellow-300">
+              Login
+            </Link></li>
+                <li><Link to="/contact" className="hover:text-yellow-300">
+              Contact Us
+            </Link></li>
             </ul>
         </div>
         </div>

@@ -6,6 +6,8 @@ import HeroSection from "./components/HeroSection";
 import Login from "./components/Login";
 import Contact from "./components/Contact";
 import ForgotPassword from "./components/ForgotPassword";
+// import UserDetails from "./components/UserDetails";
+import Users from "./components/UserDetails";
 
 export default function App() {
   return (
@@ -19,6 +21,8 @@ export default function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="/forgot-password" element={<ForgotPassword />} />
           <Route path="ProjectForm" element={<ProjectForm />} />
+          {/* <Route path="/userdetails" element={<UserDetails />} /> */}
+           <Route path="/users" element={<Users />} />
           {/* add more routes here */}
         </Route>
       </Routes>

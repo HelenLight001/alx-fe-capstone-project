@@ -35,6 +35,10 @@ export default function Navbar() {
             <Link to="/contact" className="hover:text-yellow-300">
               Contact Us
             </Link>
+            {/* <Link to="/user" className="hover:text-yellow-300">
+  Profile
+</Link> */}
+
           </div>
         </div>
       </div>

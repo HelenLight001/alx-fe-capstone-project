@@ -1,6 +1,6 @@
-import {useState} from "react";
+import { useState } from "react";
 import axios from "axios";
-import {Link, useNavigate} from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 export default function RegisterTask() {
   const navigate = useNavigate();
@@ -19,7 +19,7 @@ export default function RegisterTask() {
     setErrorMsg("");
     setLoading(true);
 
-    const data = {title, assignedTo, description, startDate, endDate};
+    const data = { title, assignedTo, description, startDate, endDate };
     const headers = {
       "Custom-Header": "xxxx-xxxx-xxxx-xxxx",
       "Content-Type": "application/json",
@@ -29,7 +29,7 @@ export default function RegisterTask() {
       const response = await axios.post(
         "https://fakerapi.it/api/v1/persons?_quantity=10",
         data,
-        {headers}
+        { headers }
       );
 
       setSuccessMsg("Task Registered successfully!");
@@ -133,6 +133,14 @@ export default function RegisterTask() {
               className="w-full sm:w-auto text-center px-6 py-3 rounded-lg bg-gray-500 text-white hover:bg-gray-600 transition"
             >
               View All Projects
+            </Link>
+
+            {/* 👇 New Users button */}
+            <Link
+              to="/users"
+              className="w-full sm:w-auto text-center px-6 py-3 rounded-lg bg-blue-400 text-white hover:bg-blue-600 transition"
+            >
+              Users
             </Link>
 
             <button
