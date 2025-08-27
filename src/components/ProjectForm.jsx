@@ -27,7 +27,7 @@ export default function RegisterTask() {
 
     try {
       const response = await axios.post(
-        "https://fakerapi.it/api/v1/persons?_quantity=10",
+        "https://fakerapi.it/api/v1/persons?_quantity=12",
         data,
         { headers }
       );

@@ -24,6 +24,8 @@ It allows users to **create projects, assign tasks, update progress, delete task
 - React (with React Router)
 - Tailwind CSS
 - Axios
+- lucide-react
+- react-icons
 
 ---
 
@@ -37,10 +39,13 @@ It allows users to **create projects, assign tasks, update progress, delete task
 
 /forgot-password → Password Reset
 
-/projectform → Add New Project
+/projectform → Add Project
 
 /contact → Contact Us
+
 /Update-user → Update User
+
+/users → UserDetails
 
 ---
 
@@ -57,7 +62,6 @@ Clean & Modern Design powered by Tailwind CSS
 ### Contributing
 
 Contributions are welcome!
-If you'd like to improve ProjectMaster, fork the repo and submit a pull request.
 
 ---
 

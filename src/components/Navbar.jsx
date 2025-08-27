@@ -1,5 +1,5 @@
 import {Link} from "react-router-dom";
-import {FaTasks} from "react-icons/fa"; // project/task icon
+import {FaTasks} from "react-icons/fa";
 import Sidebar from "./Sidebar";
 
 export default function Navbar() {
@@ -8,7 +8,7 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-4 flex justify-between items-center h-16">
         {/* Logo + Brand */}
         <Link to="/" className="flex items-center space-x-2 text-2xl font-bold">
-          <FaTasks className="text-yellow-400" /> {/* Icon */}
+          <FaTasks className="text-yellow-400" /> 
           <span>ProjectMaster</span>
         </Link>
 
